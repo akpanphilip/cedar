@@ -4,8 +4,22 @@
     <meta charset="utf-8" />
     <title>CEDAR PAINTS AND CHEMICAL INDUSTRIES LIMITED</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Free HTML Templates" name="keywords" />
-    <meta content="Free HTML Templates" name="description" />
+    <!-- Light mode theme color -->
+    <meta
+      name="theme-color"
+      content="#a92f59"
+      media="(prefers-color-scheme: light)"
+    />
+
+    <!-- Dark mode theme color -->
+    <meta
+      name="theme-color"
+      content="#0b0f14"
+      media="(prefers-color-scheme: dark)"
+    />
+
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon" />
@@ -81,9 +95,9 @@
 
     <!-- Navbar Start -->
     <nav
-      class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm px-5 py-3 py-lg-0"
+      class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm lg px-5 py-3 py-lg-0"
     >
-      <a href="" class="navbar-brand p-0">
+      <a href="/" class="navbar-brand p-0">
         <h1 class="m-0 text-uppercase text-cedar">
           <!-- <i class="fa fa-paint-roller text-cedar me-3"></i> -->
           CEDAR
@@ -98,12 +112,10 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div
-          class="navbar-nav ms-auto py-0 pe-4 border-end border-5 border-primary"
-        >
-          <a href="/" class="nav-item nav-link active">Home</a>
-          <a href="/about.html" class="nav-item nav-link">About</a>
-          <a href="" class="nav-item nav-link">Service</a>
+        <div class="navbar-nav ms-auto py-0 pe-4">
+          <a href="/" class="nav-item nav-link">Home</a>
+          <a href="about.html" class="nav-item nav-link active">About</a>
+          <a href="service.html" class="nav-item nav-link">Services</a>
           <!-- <div class="nav-item dropdown">
             <a
               href="#"
@@ -118,7 +130,7 @@
               <a href="" class="dropdown-item">Testimonial</a>
             </div>
           </div> -->
-          <a href="" class="nav-item nav-link">Contact</a>
+          <!-- <a href="contact.html" class="nav-item nav-link">Contact</a> -->
         </div>
         <div class="d-none d-lg-flex align-items-center ps-4">
           <i class="fa fa-2x fa-mobile-alt text-cedar me-3"></i>
@@ -133,13 +145,30 @@
 
     <!-- Hero Start -->
     <div
-      class="container-fluid bg-cedar-light py-5"
-      style="margin-bottom: 90px"
+      class="container-fluid bg-cedar-light py-5 bg-hero"
+      style="margin-bottom: 10px"
     >
       <div class="container py-5">
         <div class="row">
-          <div class="col-lg-8 text-center text-lg-start">
+          <div class="col-lg-8 text-lg-start">
             <h1 class="display-1 text-cedar">About Us</h1>
+            <!-- <p class="fs-4 text-dark mb-4">
+              CEDAR PAINTS NIGERIA | Experience the colourful side of life.
+            </p> -->
+            <div class="row">
+              <div class="col-md-8">
+                <p class="fs-4 text-dark mb-4 lg-bg-light">
+                  <span id="typewriter"></span>
+                </p>
+              </div>
+            </div>
+            <div class="pt-2">
+              <a
+                href="tel:+2347019269531"
+                class="btn btn-cedar py-md-3 px-md-5 mx-2"
+                >Contact Us</a
+              >
+            </div>
             <!-- <div class="pt-2">
               <a href="" class="btn btn-secondary rounded-pill py-2 px-4 mx-2"
                 >Home</a
@@ -155,69 +184,43 @@
     <!-- Hero End -->
 
     <!-- About Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid">
       <div class="container py-5">
         <div class="row gx-0 mb-3 mb-lg-0">
-          <div class="col-lg-6 my-lg-5 py-lg-5">
-            <div class="about-start p-5">
+          <div class="col-lg-7 my-lg-5 py-lg-5">
+            <div class="about-start bg-cedar-light p-5">
               <h1 class="display-5 mb-4">About Us</h1>
-              <p>
+              <p class="text-dark">
                 Cedar Paints is a paint production company committed to
                 providing top quality coatings for our esteemed customers. With
                 dedication to excellence and environment sustainability, we
                 offer a wide range of products, that are low on volatile organic
                 compounds (voc).
 
-                <br />
+                <br /><br />
                 Our Products offer both decorative, protective and aesthetic
                 finish to your property, Our products are durable and pocket
                 friendly, making sure that our clients get maximum value for
                 their money.
 
                 <br />
+                <br />
                 We also offer semi organic and organic paints on demand.
               </p>
               <a
-                href=""
-                class="btn btn-secondary rounded-pill py-md-3 px-md-5 mt-4"
+                href="tel:+2347019269531"
+                class="btn btn-cedar py-md-3 px-md-5 mt-4"
                 >Contact Us</a
               >
             </div>
           </div>
-          <div class="col-lg-6" style="min-height: 400px">
+          <div class="col-lg-5" style="min-height: 400px">
             <div class="position-relative h-100">
               <img
                 class="position-absolute w-100 h-100"
-                src="img/about-1.jpg"
+                src="img/cedar-about.jpg"
                 style="object-fit: cover"
               />
-            </div>
-          </div>
-        </div>
-        <div class="row gx-0">
-          <div class="col-lg-6" style="min-height: 400px">
-            <div class="position-relative h-100">
-              <img
-                class="position-absolute w-100 h-100"
-                src="img/about-2.jpg"
-                style="object-fit: cover"
-              />
-            </div>
-          </div>
-          <div class="col-lg-6 my-lg-5 py-lg-5">
-            <div class="about-end bg-primary p-5">
-              <h1 class="display-5 mb-4">Why Choose Us?</h1>
-              <p>
-                Tempor erat elitr at rebum at at clita. Diam dolor diam ipsum
-                et, tempor sit sit diam amet et eos labore. Clita erat ipsum et
-                lorem et sit, sed stet no labore lorem sit. Sanctus clita duo
-                justo et tempor magna dolore erat amet
-              </p>
-              <a
-                href=""
-                class="btn btn-secondary rounded-pill py-md-3 px-md-5 mt-4"
-                >Get A Quote</a
-              >
             </div>
           </div>
         </div>
@@ -330,13 +333,17 @@
       <div class="container py-5">
         <div class="row g-0 justify-content-start">
           <div class="col-lg-6">
-            <h1 class="display-5 mb-4">Ready to Transform Your Space?</h1>
-            <p class="fs-4 fw-normal">
+            <h1 class="display-5 mb-4 lg-bg-light">
+              Ready to Transform Your Space?
+            </h1>
+            <p class="fs-4 fw-normal lg-bg-light">
               From walls to ceilings, we provide premium paints and coatings
               that protect and beautify. Contact us now to start your project
               with our experts.
             </p>
-            <a href="" class="btn btn-cedar rounded-pill py-md-3 px-md-5 mt-4"
+            <a
+              href="tel:+2347019269531"
+              class="btn btn-cedar py-md-3 px-md-5 mt-4"
               >Contact Us</a
             >
           </div>
@@ -492,6 +499,25 @@
       class="btn btn-lg btn-secondary btn-lg-square rounded-circle back-to-top"
       ><i class="bi bi-arrow-up"></i
     ></a>
+
+    <script>
+      const text =
+        "CEDAR PAINTS NIGERIA | Experience the colourful side of life.";
+      const speed = 70; // typing speed (ms)
+
+      let index = 0;
+      const target = document.getElementById("typewriter");
+
+      function typeEffect() {
+        if (index < text.length) {
+          target.textContent += text.charAt(index);
+          index++;
+          setTimeout(typeEffect, speed);
+        }
+      }
+
+      typeEffect();
+    </script>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

@@ -4,7 +4,19 @@
     <meta charset="utf-8" />
     <title>CEDAR PAINTS AND CHEMICAL INDUSTRIES LIMITED</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta name="theme-color" content="#a92f59" />
+    <!-- Light mode theme color -->
+    <meta
+      name="theme-color"
+      content="#a92f59"
+      media="(prefers-color-scheme: light)"
+    />
+
+    <!-- Dark mode theme color -->
+    <meta
+      name="theme-color"
+      content="#0b0f14"
+      media="(prefers-color-scheme: dark)"
+    />
 
     <!-- <meta content="Free HTML Templates" name="keywords" /> -->
     <!-- <meta content="Free HTML Templates" name="description" /> -->
@@ -98,7 +110,7 @@
     <nav
       class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm lg px-5 py-3 py-lg-0"
     >
-      <a href="" class="navbar-brand p-0">
+      <a href="/" class="navbar-brand p-0">
         <h1 class="m-0 text-uppercase text-cedar">
           <!-- <i class="fa fa-paint-roller text-cedar me-3"></i> -->
           CEDAR
@@ -114,9 +126,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-0 pe-4">
-          <a href="" class="nav-item nav-link active">Home</a>
-          <a href="" class="nav-item nav-link">About</a>
-          <a href="" class="nav-item nav-link">Service</a>
+          <a href="/" class="nav-item nav-link active">Home</a>
+          <a href="about.html" class="nav-item nav-link">About</a>
+          <a href="service.html" class="nav-item nav-link">Services</a>
           <!-- <div class="nav-item dropdown">
             <a
               href="#"
@@ -131,7 +143,7 @@
               <a href="" class="dropdown-item">Testimonial</a>
             </div>
           </div> -->
-          <a href="" class="nav-item nav-link">Contact</a>
+          <!-- <a href="contact.html" class="nav-item nav-link">Contact</a> -->
         </div>
         <div class="d-none d-lg-flex align-items-center ps-4">
           <i class="fa fa-2x fa-mobile-alt text-cedar me-3"></i>
@@ -155,9 +167,12 @@
             <h3 class="display-4 text-dark lg-bg-light">
               Cedar Paints & Chemical Industries Limited
             </h3>
-            <p class="fs-4 text-dark mb-4 lg-bg-light">
+            <!-- <p class="fs-4 text-dark mb-4 lg-bg-light">
               Delivering quality finishes that bring your spaces to life with
               lasting beauty
+            </p> -->
+            <p class="fs-4 text-dark mb-4 lg-bg-light">
+              <span id="typewriter"></span>
             </p>
             <div class="pt-2">
               <a
@@ -181,7 +196,7 @@
               <h1 class="display-5 mb-4">
                 Cedar Paints & Chemical Industries Limited
               </h1>
-              <p>
+              <p class="text-dark">
                 At Cedar Paints & Chemical Industries Limited, we specialize in
                 producing premium paints and chemical products that combine
                 strength, elegance, and reliability. With a focus on innovation
@@ -201,12 +216,27 @@
             <div class="position-relative h-100">
               <img
                 class="position-absolute w-100 h-100"
-                src="img/about-1.jpg"
+                src="img/cedar-home-hero.jpg"
                 style="object-fit: cover"
               />
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="paint-marquee">
+      <div class="paint-track">
+        <span
+          >CEDAR PAINTS NIGERIA — Experience the colourful side of life</span
+        >
+        <span
+          >CEDAR PAINTS NIGERIA — Experience the colourful side of life</span
+        >
+      </div>
+    </div>
+    <div class="container-fluid py-3">
+      <div class="container py-3">
         <div class="row gx-0">
           <div class="col-lg-6 d-none d-lg-block" style="min-height: 400px">
             <div class="position-relative h-100">
@@ -302,7 +332,7 @@
               </div>
               <h3 class="mt-5">MATT</h3>
               <p>
-                edar Matt is a premium, durable emulsion paint that provides a
+                Cedar Matt is a premium, durable emulsion paint that provides a
                 flat sheen finish, is resistant to salt and water, and is
                 suitable for both interior and exterior surfaces.
               </p>
@@ -575,50 +605,45 @@
     <!-- Team End -->
 
     <!-- Testimonial Start -->
-    <!-- <div
-      class="container-fluid bg-cedar-light bg-testimonial py-5"
-      style="margin: 90px 0"
-    >
+    <div class="container-fluid bg-testimonial py-5" style="">
       <div class="container py-5">
         <div class="row g-0 justify-content-end">
           <div class="col-lg-6">
             <h1 class="display-5 mb-4">Testimonials</h1>
             <div class="owl-carousel testimonial-carousel">
               <div class="testimonial-item">
-                <p class="fs-4 fw-normal">
-                  <i class="fa fa-quote-left text-cedar me-3"></i>Dolores
-                  sed duo clita tempor justo dolor et stet lorem kasd labore
-                  dolore lorem ipsum. At lorem lorem magna ut et, nonumy et
-                  labore et tempor diam tempor erat dolor rebum sit ipsum.
+                <p class="fs-4 fw-normal bg-cedar-light">
+                  <i class="fa fa-quote-left text-cedar me-3"></i>The finish is
+                  absolutely stunning. Cedar Paints transformed our space and
+                  the colours stayed vibrant even after months
                 </p>
                 <div class="d-flex align-items-center">
-                  <img
+                  <!-- <img
                     class="img-fluid p-1 bg-secondary"
                     src="img/testimonial-1.jpg"
                     alt=""
-                  />
+                  /> -->
                   <div class="ps-3">
-                    <h3>Client Name</h3>
-                    <span class="text-uppercase">Profession</span>
+                    <h3>John Abu</h3>
+                    <span class="text-uppercase">Civil Engineer</span>
                   </div>
                 </div>
               </div>
               <div class="testimonial-item">
                 <p class="fs-4 fw-normal">
-                  <i class="fa fa-quote-left text-cedar me-3"></i>Dolores
-                  sed duo clita tempor justo dolor et stet lorem kasd labore
-                  dolore lorem ipsum. At lorem lorem magna ut et, nonumy et
-                  labore et tempor diam tempor erat dolor rebum sit ipsum.
+                  <i class="fa fa-quote-left text-cedar me-3"></i>The finish is
+                  absolutely stunning. Cedar Paints transformed our space and
+                  the colours stayed vibrant even after months
                 </p>
                 <div class="d-flex align-items-center">
-                  <img
+                  <!-- <img
                     class="img-fluid p-1 bg-secondary"
                     src="img/testimonial-2.jpg"
                     alt=""
-                  />
+                  /> -->
                   <div class="ps-3">
-                    <h3>Client Name</h3>
-                    <span class="text-uppercase">Profession</span>
+                    <h3>John Abu</h3>
+                    <span class="text-uppercase">Medical Doctor</span>
                   </div>
                 </div>
               </div>
@@ -626,147 +651,12 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
     <!-- Testimonial End -->
 
-    <!-- Blog Start -->
-    <!-- <div class="container-fluid py-5">
-      <div class="container py-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 500px">
-          <h1 class="display-5">Latest Articles From Painting Blog</h1>
-          <hr class="w-25 mx-auto text-cedar" style="opacity: 1" />
-        </div>
-        <div class="row g-3">
-          <div class="col-xl-4 col-lg-6">
-            <div class="blog-item bg-cedar-light">
-              <img class="img-fluid w-100" src="img/blog-1.jpg" alt="" />
-              <div class="d-flex align-items-center">
-                <div
-                  class="bg-secondary mt-n4 d-flex flex-column flex-shrink-0 justify-content-center text-center me-4"
-                  style="width: 60px; height: 100px"
-                >
-                  <i class="fa fa-calendar-alt text-cedar mb-2"></i>
-                  <p class="m-0 text-white">Jan 01</p>
-                  <small class="text-white">2045</small>
-                </div>
-                <a class="h4 m-0 text-truncate me-4" href=""
-                  >Dolor clita vero elitr sea stet dolor justo diam</a
-                >
-              </div>
-              <div
-                class="d-flex justify-content-between border-top border-secondary p-4"
-              >
-                <div class="d-flex align-items-center">
-                  <img
-                    class="rounded-circle me-2"
-                    src="img/user.jpg"
-                    width="30"
-                    height="30"
-                    alt=""
-                  />
-                  <small class="text-uppercase">John Doe</small>
-                </div>
-                <div class="d-flex align-items-center">
-                  <small class="ms-3"
-                    ><i class="fa fa-eye text-cedar me-2"></i>12345</small
-                  >
-                  <small class="ms-3"
-                    ><i class="fa fa-comment text-cedar me-2"></i>123</small
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-6">
-            <div class="blog-item bg-cedar-light">
-              <img class="img-fluid w-100" src="img/blog-2.jpg" alt="" />
-              <div class="d-flex align-items-center">
-                <div
-                  class="bg-secondary mt-n4 d-flex flex-column flex-shrink-0 justify-content-center text-center me-4"
-                  style="width: 60px; height: 100px"
-                >
-                  <i class="fa fa-calendar-alt text-cedar mb-2"></i>
-                  <p class="m-0 text-white">Jan 01</p>
-                  <small class="text-white">2045</small>
-                </div>
-                <a class="h4 m-0 text-truncate me-4" href=""
-                  >Dolor clita vero elitr sea stet dolor justo diam</a
-                >
-              </div>
-              <div
-                class="d-flex justify-content-between border-top border-secondary p-4"
-              >
-                <div class="d-flex align-items-center">
-                  <img
-                    class="rounded-circle me-2"
-                    src="img/user.jpg"
-                    width="30"
-                    height="30"
-                    alt=""
-                  />
-                  <small class="text-uppercase">John Doe</small>
-                </div>
-                <div class="d-flex align-items-center">
-                  <small class="ms-3"
-                    ><i class="fa fa-eye text-cedar me-2"></i>12345</small
-                  >
-                  <small class="ms-3"
-                    ><i class="fa fa-comment text-cedar me-2"></i>123</small
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-6">
-            <div class="blog-item bg-cedar-light">
-              <img class="img-fluid w-100" src="img/blog-3.jpg" alt="" />
-              <div class="d-flex align-items-center">
-                <div
-                  class="bg-secondary mt-n4 d-flex flex-column flex-shrink-0 justify-content-center text-center me-4"
-                  style="width: 60px; height: 100px"
-                >
-                  <i class="fa fa-calendar-alt text-cedar mb-2"></i>
-                  <p class="m-0 text-white">Jan 01</p>
-                  <small class="text-white">2045</small>
-                </div>
-                <a class="h4 m-0 text-truncate me-4" href=""
-                  >Dolor clita vero elitr sea stet dolor justo diam</a
-                >
-              </div>
-              <div
-                class="d-flex justify-content-between border-top border-secondary p-4"
-              >
-                <div class="d-flex align-items-center">
-                  <img
-                    class="rounded-circle me-2"
-                    src="img/user.jpg"
-                    width="30"
-                    height="30"
-                    alt=""
-                  />
-                  <small class="text-uppercase">John Doe</small>
-                </div>
-                <div class="d-flex align-items-center">
-                  <small class="ms-3"
-                    ><i class="fa fa-eye text-cedar me-2"></i>12345</small
-                  >
-                  <small class="ms-3"
-                    ><i class="fa fa-comment text-cedar me-2"></i>123</small
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- Blog End -->
-
     <!-- Call To Action Start -->
-    <div
-      class="container-fluid bg-cedar-light bg-call-to-action py-5"
-      style="margin-top: 90px"
-    >
+
+    <div class="container-fluid bg-cedar-light bg-call-to-action py-5">
       <div class="container py-5">
         <div class="row g-0 justify-content-start">
           <div class="col-lg-6">
@@ -944,6 +834,24 @@
     <script src="js/main.js"></script>
 
     <script>
+      const text =
+        " Delivering quality finishes that bring your spaces to life with lasting beauty";
+      const speed = 70; // typing speed (ms)
+
+      let index = 0;
+      const target = document.getElementById("typewriter");
+
+      function typeEffect() {
+        if (index < text.length) {
+          target.textContent += text.charAt(index);
+          index++;
+          setTimeout(typeEffect, speed);
+        }
+      }
+
+      typeEffect();
+    </script>
+    <script>
       document.addEventListener("DOMContentLoaded", function () {
         const items = document.querySelectorAll(".service-item-wrapper");
         const toggleBtn = document.getElementById("toggleServices");
@@ -975,6 +883,33 @@
         // Initialize data attribute
         toggleBtn.dataset.showing = "false";
       });
+    </script>
+    <script>
+      const marquee = document.querySelector(".paint-marquee");
+
+      const colors = ["#ffcc00", "#ff4d4d", "#6cffc4", "#4d9dff", "#c77dff"];
+
+      function createSplash() {
+        const splash = document.createElement("div");
+        splash.classList.add("paint-splash");
+
+        const size = Math.random() * 40 + 20;
+        splash.style.width = `${size}px`;
+        splash.style.height = `${size}px`;
+
+        splash.style.left = `${Math.random() * 100}%`;
+        splash.style.top = `${Math.random() * 100}%`;
+
+        splash.style.background =
+          colors[Math.floor(Math.random() * colors.length)];
+
+        marquee.appendChild(splash);
+
+        setTimeout(() => splash.remove(), 2500);
+      }
+
+      // Create splashes at intervals
+      setInterval(createSplash, 600);
     </script>
   </body>
 </html>
